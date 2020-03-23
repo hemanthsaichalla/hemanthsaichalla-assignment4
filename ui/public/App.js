@@ -15,7 +15,6 @@ function InventorySubhead() {
 function ProductRow({
   product
 }) {
-  // const { product } = props.product;
   const price = `$${product.Price}`;
   return React.createElement("tr", null, React.createElement("td", {
     id: "body_pro_id"
@@ -146,7 +145,7 @@ class MyProductList extends React.Component {
       productAdd(product: $product) {
         id
       }
-    }`; // const data = await graphQLFetch(query, { product });
+    }`; 
 
     await graphQLFetch(query, {
       product

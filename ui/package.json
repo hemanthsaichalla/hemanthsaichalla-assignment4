@@ -9,7 +9,7 @@
     "lint": "eslint . --ext js,jsx --ignore-pattern public",
     "watch": "babel src --presets @babel/react --out-dir public --watch --verbose"
   },
-  "author": "",
+  "author": "Hemanth Sai",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.2.0",
