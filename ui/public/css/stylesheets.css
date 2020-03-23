@@ -1,0 +1,16 @@
+table, th, td {
+  border: 1px solid silver; 
+  padding: 4px;
+  border-collapse: collapse;
+}
+
+#head_pro_id, #body_pro_id  {
+  display:none;
+}
+
+.grid_container {
+  display: grid;
+  grid-row: auto auto;
+  grid-template-columns: 200px 200px;
+  grid-gap: 10px;
+}
